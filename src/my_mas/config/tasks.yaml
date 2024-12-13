@@ -1,17 +1,22 @@
 research_task:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is 2024.
+    Conduct a thorough research about {topic} in home security systems.
+    Explore current technologies, innovative solutions, and practical insights 
+    for homeowners looking to enhance their residential security.
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
+    A list of 10 key research points covering the chosen {topic}, 
+    including latest equipment innovations, installation tips, 
+    effectiveness statistics, and homeowner recommendations.
   agent: researcher
 
 reporting_task:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Review the context about {topic} in home security systems and 
+    develop a comprehensive blog post for homeowners.
+    Provide actionable advice, expert insights, and detailed information 
+    about residential security solutions.
   expected_output: >
-    A fully fledge reports with the mains topics, each with a full section of information.
+    A fully fledged blog post about {topic} with comprehensive sections 
+    focused on home security system technologies and strategies.
     Formatted as markdown without '```'
-  agent: reporting_analyst
+  agent: blog_writer
